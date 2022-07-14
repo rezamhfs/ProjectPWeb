@@ -4,12 +4,12 @@ function validateForm() {
     let z = document.forms["myForm"]["pesan"].value;
     let s = document.forms["myForm"]["subjek"].value;
     if (x == "") {
-      alert("Nama dan Harus Diisi");
+      alert("Nama Harus Diisi");
       return false;
     }
 
     else if (y == "") {
-        alert("Email dan Harus Diisi");
+        alert("Email Harus Diisi");
         return false;
       }
 

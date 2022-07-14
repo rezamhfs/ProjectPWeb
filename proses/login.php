@@ -1,8 +1,6 @@
 <?php
 include('../config.php');
-include('../script.js');
-
-var_dump($_POST);
+//var_dump($_POST);
 
 // inisialisasi variable
 $username = $_POST['username'];
